@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.net.http.HttpResponse;
 import java.util.List;
@@ -25,8 +26,8 @@ public class DishController {
         return dishesService.getDishes();
     }
     @PostMapping("/dishes")
-    public Dishes addDishes(@RequestBody Dishes dishes){
-        return dishesService.addDishes(dishes);
+    public Dishes addDishes(@ModelAttribute Dishes dishes , @RequestParam(value = "file") MultipartFile file){
+        return dishesService.addDishes(dishes , file);
     }
 
     @PutMapping("/dishes")

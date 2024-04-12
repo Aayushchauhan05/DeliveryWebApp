@@ -5,3 +5,9 @@
 .line{color: black,;
     width: 1200px;
 }
+.carousel-inner img {
+    max-height: 60vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  

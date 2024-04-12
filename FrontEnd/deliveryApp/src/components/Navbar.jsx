@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../assets/Screenshot 2024-04-11 151218.png';
 import drop from '../assets/down-arrow.png';
+import Home from './Home';
+
 
 function Navbar() {
   return (
@@ -24,6 +26,7 @@ function Navbar() {
         <p className='p1'>cart</p>
       </div>
       <hr className='line2'/>
+      <Home/>
 
     </>
   );

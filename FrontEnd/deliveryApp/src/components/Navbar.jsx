@@ -17,7 +17,7 @@ function Navbar() {
         
         </div>
       </div>
-      <div><hr className="line" /></div>
+      <hr className="line" />
       <div className="nav2">
         <p className='p1'>search</p>
         <p className='p1'>offer</p>

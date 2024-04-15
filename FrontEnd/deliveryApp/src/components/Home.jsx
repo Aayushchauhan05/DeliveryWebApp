@@ -49,32 +49,32 @@ export default function Home() {
 
 
         <div className="scroll-box" >
-          {/* <div class="card" style={{ width: "18rem;" }}>
-            <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Chicken</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+          {/* <div className="card" style={{ width: "18rem;" }}>
+            <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Chicken</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
           </div> */}
 
-          <div class="card">
-  <div class="image_container">
+          <div className="card">
+  <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="action">
-    <div class="price">
+  <div className="action">
+    <div className="price">
       <span>$299</span>
     </div>
-    <button class="cart-button">
+    <button className="cart-button">
       <svg
-        class="cart-icon"
+        className="cart-icon"
         stroke="currentColor"
         stroke-width="1.5"
         viewBox="0 0 24 24"
@@ -91,23 +91,23 @@ export default function Home() {
     </button>
   </div>
 </div>
-<div class="card">
-  <div class="image_container">
+<div className="card">
+  <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="action">
-    <div class="price">
+  <div className="action">
+    <div className="price">
       <span>$299</span>
     </div>
-    <button class="cart-button">
+    <button className="cart-button">
       <svg
-        class="cart-icon"
+        className="cart-icon"
         stroke="currentColor"
         stroke-width="1.5"
         viewBox="0 0 24 24"
@@ -124,23 +124,23 @@ export default function Home() {
     </button>
   </div>
 </div>
-<div class="card">
-  <div class="image_container">
+<div className="card">
+  <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="action">
-    <div class="price">
+  <div className="action">
+    <div className="price">
       <span>$299</span>
     </div>
-    <button class="cart-button">
+    <button className="cart-button">
       <svg
-        class="cart-icon"
+        className="cart-icon"
         stroke="currentColor"
         stroke-width="1.5"
         viewBox="0 0 24 24"
@@ -157,23 +157,23 @@ export default function Home() {
     </button>
   </div>
 </div>
-<div class="card">
-  <div class="image_container">
+<div className="card">
+  <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="action">
-    <div class="price">
+  <div className="action">
+    <div className="price">
       <span>$299</span>
     </div>
-    <button class="cart-button">
+    <button className="cart-button">
       <svg
-        class="cart-icon"
+        className="cart-icon"
         stroke="currentColor"
         stroke-width="1.5"
         viewBox="0 0 24 24"
@@ -190,23 +190,23 @@ export default function Home() {
     </button>
   </div>
 </div>
-<div class="card">
-  <div class="image_container">
+<div className="card">
+  <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="action">
-    <div class="price">
+  <div className="action">
+    <div className="price">
       <span>$299</span>
     </div>
-    <button class="cart-button">
+    <button className="cart-button">
       <svg
-        class="cart-icon"
+        className="cart-icon"
         stroke="currentColor"
         stroke-width="1.5"
         viewBox="0 0 24 24"
@@ -223,23 +223,23 @@ export default function Home() {
     </button>
   </div>
 </div>
-<div class="card">
-  <div class="image_container">
+<div className="card">
+  <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="title">
+  <div className="title">
     <span>New brand name</span>
   </div>
-  <div class="action">
-    <div class="price">
+  <div className="action">
+    <div className="price">
       <span>$299</span>
     </div>
-    <button class="cart-button">
+    <button className="cart-button">
       <svg
-        class="cart-icon"
+        className="cart-icon"
         stroke="currentColor"
         stroke-width="1.5"
         viewBox="0 0 24 24"

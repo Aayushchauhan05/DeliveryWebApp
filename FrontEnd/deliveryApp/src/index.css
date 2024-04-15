@@ -18,44 +18,112 @@ html,body{
   padding-top: 15px;
 
 }
-.nav{
+.nav {
   display: flex;
- 
+  justify-content: space-between;
   align-items: center;
-
-
+  padding: 10px 20px;
 }
-.delivery{
-  justify-content: center;
-  align-items: center;
-  padding-top: 37px;
-  padding-left: 55px;
+
+.delivery {
+  padding-top: 20px;
+  padding-bottom: 10px;
   color: gray;
   font-size: larger;
   display: flex;
-  padding-bottom: 15px;
+  align-items: center;
 }
+
+.logo {
+  max-width: 100%; /* Set maximum width to 100% */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.place {
+  margin-left: 5px;
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .delivery {
+      padding: 10px;
+      justify-content: center;
+      text-align: center;
+  }
+}
+
 .place{
   color: red;
 }
 .line{color: black,;
-  width: 2000px;
+  width: 100%;
   opacity: 0.4;
 }
 
 .nav2 {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 40px;
-    font-size: 20px;
-    padding-top: 25px;
-    padding-bottom: 40px;
-    
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  padding: 2vw;
+  font-size: 20px;
+  padding-top: 5px;
 }
+
+.p1:hover {
+  background-color: rgb(179, 176, 176);
+  color: black;
+  border-radius: 4px;
+  
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .nav2 {
+      flex-direction: column;
+      align-items: flex-end; 
+  }
+
+  .p1 {
+      margin: 5px 0; 
+  }
+}
+
 .p1{
   padding-left: 30px;
   padding-right: 50px;
   color: #4a4a4a;
+  margin: 0 10px; 
+  cursor: pointer;
+}
+.nav3{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+.category2{
+  display: flex;
+  gap: 15px;
   
 }
-  
+.q{
+  padding:5px;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: #4a4a4a;
+}
+.q1{
+
+  padding:5px;
+}
+.category1{
+  font-size: 22px;
+}
+

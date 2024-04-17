@@ -9,7 +9,7 @@ html,body{
   height: 100%;
 }
 .container{
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
   background:white;
 }
@@ -67,7 +67,11 @@ html,body{
 
 .nav2 {
   display: flex;
+
+  justify-content: space-around;
+
   justify-content: flex-end;
+
   margin: auto;
   padding: 2vw;
   font-size: 20px;

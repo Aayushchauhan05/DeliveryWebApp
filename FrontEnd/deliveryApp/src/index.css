@@ -67,7 +67,11 @@ html,body{
 
 .nav2 {
   display: flex;
+
   justify-content: space-around;
+
+  justify-content: flex-end;
+
   margin: auto;
   padding: 2vw;
   font-size: 20px;

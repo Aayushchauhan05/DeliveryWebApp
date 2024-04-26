@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login-parent {
+    padding-top: 10vh;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #232326 70%, #424345 30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.login-main-child{
+    height: 78vh;
+    min-width: 70vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 10px;
+   
+}
+.child1 , .child2{
+    height: 100%;
+    width: 40%;
+}
+.child1 img{
+    object-fit: cover;
+    height: 90%;
+    width: 95%;
+    
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+}
+.child2-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:20vh;
+    color: white;
+}
+.child2-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   height: 40vh;
+    color: white;
+    text-align: center;
+    gap: 10px;
+    /* background-color: white; */
+}
+#email-child2,#child2-password{
+    height: 10vh;
+margin: 0.5vh 0;
+    width: 100%;
+    padding-left: 5px;
+    
+}
+/* .child2-inputs p{
+    margin-top: 5px;
+} */
+.child2-inputs button{
+    height: 8vh !important;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.eye{
+    position: relative;
+    bottom: 7vh;
+    color: black;
+    left: 13vw;
+}
+.bi{
+    font-weight: bold;
+    
+}
+
+.remchild1 input{
+    height: 2vh;
+    width: 2vw;
+}
+.rememberdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.remchild1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.login-main-child b{
+    color: rgb(250, 102, 102);
+}
+.anotherlogin p::before,
+.anotherlogin p::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 10vw;
+    background-color: grey;
+    position: relative;
+    top: 0;
+    /* bottom: 2px; */
+    left: 6px;
+    right: 6px;
+    /* margin: 1vw 0; */
+}
+.anotherlogin {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:900px){
+    .login-parent {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(to bottom, #232326 70%, #424345 30%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-main-child{
+        height: 80vh;
+        min-width: 70vw;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: reverse;
+        color: white;
+       
+    }
+ .child2{
+        height: 100%;
+        width: 80%;
+    }
+    .child1{
+        display: none;
+    }
+
+    .child1 img{
+        object-fit: cover;
+        height: 88%;
+        display: none;
+    }
+    /* .remchild1{
+        
+    } */
+    .rememberdiv{
+        font-size: x-small;
+        align-items: center;
+    }
+    .eye{
+        position: relative;
+        bottom: 4.8vh;
+        color: black;
+        left: 25vw;
+    }
+    .bi{
+        font-weight: bold;
+        
+    }
+}
+.register form {
+    width: 300px;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.register input[type="text"],.register input[type="number"],
+.register input[type="email"],
+.register input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.register button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.register button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.register div {
+    margin-top: 10px;
+}
+.register a {
+    color: #007bff;
+    text-decoration: none;
+}

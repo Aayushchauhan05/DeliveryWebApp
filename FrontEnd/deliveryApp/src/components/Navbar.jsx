@@ -57,21 +57,7 @@ function Navbar() {
         <p className='p1'><img src={cart} alt="" />  Cart</p>
       </div>
       <hr className='line2'/>
-<<<<<<< HEAD
       
-=======
-      <Home/>
-
-      <div className="nav3">
-        <div className="category1">CATEGORIES</div>
-        <div className="category2">
-          <p className='q'>VEG</p>
-          <p className='q'>PRICE<img src={price} alt="" /></p>
-          <p className='q1'><img src={filter} alt="" />FILTERS</p></div>
-      </div>
-      <hr className='line3'/>
-
->>>>>>> 0c73763eed12d38b4e40b9675b758911d739cbb5
       
 
     </>

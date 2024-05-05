@@ -42,7 +42,7 @@ try {
         return res.status(501).send("Invalid password")
     }
 
-    const token= jwt.sign({email},"ayuhwebdev",{expiresIn:"10d"});
+    const token= jwt.sign({userexist},"ayuhwebdev",{expiresIn:"10d"});
     return res.status(200).json({
         userexist,
         token

@@ -22,7 +22,7 @@ function Navbar() {
       logo.style.display="block";
     }
     else{
-      logo.style.display="none";
+    //  logo.style.display="none";
     }
     if (scroll > 10) {
       nav2.classList.add("nav2t");

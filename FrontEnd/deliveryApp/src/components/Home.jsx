@@ -3,6 +3,7 @@ import "./Navbar.css";
 import price from '../assets/price.svg';
 import filter from '../assets/filter.svg';
 import drop from '../assets/down-arrow.png';
+import { AllDish } from './AllDish';
 export default function Home() {
   return (
     <>
@@ -161,7 +162,7 @@ export default function Home() {
   <div className="image_container">
    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='image' />
   </div>
-  <div className="title">
+  <div className="title">                                           
     <span>New brand name</span>
   </div>
   <div className="title">
@@ -259,6 +260,8 @@ export default function Home() {
 
         </div>
       </div>
+
+      
     </>
   );
 }

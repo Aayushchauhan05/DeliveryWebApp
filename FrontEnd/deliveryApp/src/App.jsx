@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import { AllDish } from './components/AllDish'
 
 function App() {
   return (
     <>
-    <div className="container">
-    <Navbar />
-    </div>
+      <div className="container">
+        <AllDish />
+      </div>
     </>
   )
 }

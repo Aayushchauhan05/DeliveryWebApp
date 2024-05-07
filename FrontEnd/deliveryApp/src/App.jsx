@@ -1,15 +1,24 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import { AllDish } from './components/AllDish'
-
+import {Routes,Route} from "react-router-dom"
+import Login from './components/Login'
+import Home from './components/Home'
+import Register from './components/Register'
 function App() {
   return (
     <>
-      <div className="container">
-        <AllDish />
-      </div>
+    
+    <Navbar />
+    <Routes>
+      <Route  path='/Login' element={<Login/>}/>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/Register' element={<Register/>}/>
+    </Routes>
+    
     </>
   )
 }
+
+
 
 export default App

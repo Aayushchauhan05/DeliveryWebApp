@@ -187,7 +187,7 @@ export default function Home() {
           stroke-linecap="round"
         ></path>
       </svg>
-      <span>Add to cart</span>
+      <span className='text-black'>Add to cart</span>
     </button>
   </div>
 </div>

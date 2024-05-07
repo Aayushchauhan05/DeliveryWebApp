@@ -9,6 +9,7 @@ import search from '../assets/search.svg';
 import offer from '../assets/offer.svg';
 import help from '../assets/help.svg';
 import cart from '../assets/cart.svg';
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -51,21 +52,12 @@ function Navbar() {
         <p className='p1'><img src={search} alt="" />Search</p>
         <p className='p1'> Offer</p>
         <p className='p1'><img src={offer} alt="" />   Help center</p>
-        <p className='p1'><img src={help} alt="" />  Login</p>
+        <Link to={"/Login"} className='p1'><img src={help} alt="" />  Login</Link>
+        <Link to={"/Register"} className='p1'><img src={help} alt="" />  Register</Link>
         <p className='p1'><img src={cart} alt="" />  Cart</p>
       </div>
       <hr className='line2'/>
-      <Home/>
-
-      <div className="nav3">
-        <div className="category1">CATEGORIES</div>
-        <div className="category2">
-          <p className='q'>VEG</p>
-          <p className='q'>PRICE<img src={price} alt="" /></p>
-          <p className='q1'><img src={filter} alt="" />FILTERS</p></div>
-      </div>
-      <hr className='line3'/>
-
+      
       
 
     </>
